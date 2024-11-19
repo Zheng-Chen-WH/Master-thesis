@@ -11,8 +11,6 @@ import math
 from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 
-'''用上了自己的激进度算法'''
-
 class test_env:
     def __init__(self):
          #状态空间设置为无限连续状态空间，虽然不知道相比设成离散空间有什么影响
